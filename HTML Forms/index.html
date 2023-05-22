@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <h3>Student Form</h3>
+        <form name="form1">
+            <label for="firstName">First Name</label>
+            <input type="text"
+                required
+                name="firstName"
+                placeholder="First Name"
+                maxlength="8"
+
+            />
+            <br/><br/>
+
+            <label for="lastName">Last Name</label>
+            <input type="text" name="lastName" required />
+            <br />
+            <hr />
+            <h4>Please select your fav colour :-</h4>
+
+            <input type="radio" name="colour" />
+            <label for="colour">Red</label> <br />
+
+            <input type="radio" name="colour" />
+            <label for="colour">Blue</label> <br />
+
+            <input type="radio" name="colour" />
+            <label for="colour">Black</label><br />
+
+            <input type="radio" name="colour" />
+            <label for="colour">Pink</label><br />
+
+            <input type="radio" name="colour" />
+            <label for="colour">Yellow</label><br />
+
+            <input type="radio" name="colour" />
+            <label for="colour">Orange</label> 
+            <br />
+            <hr />
+            <h4>Please Select Your Subjects</h4>
+
+            <input type="checkbox" name="subjects">
+            <label for="subjects">Maths</label><br>
+
+            <input type="checkbox" name="subjects">
+            <label for="subjects">Science</label><br>
+
+            <input type="checkbox" name="subjects">
+            <label for="subjects">English</label><br>
+
+            <input type="checkbox" name="subjects">
+            <label for="subjects">Hindi</label><br>
+            
+            <input type="checkbox" name="subjects">
+            <label for="subjects">Economy</label><br>
+            <hr>
+            <h4>Select Your Dream Car</h4>
+
+            <!-- <label for="">please select your car</label> -->
+            <select name="cars" id="cars">
+                <option value="" selected>Please select your option</option>
+                <optgroup label="Foren">
+                    <option value="Rolls Royce">Rolls Royce</option>
+                    <option value="BMW" disabled>BMW</option>
+                    <option value="Fortuner">Fortuner</option>
+                </optgroup>
+                <optgroup label="India">
+                    <option value="Thar">Thar</option>
+                    <option value="Punch">Punch</option>
+                </optgroup>
+            </select>
+            <br><br>
+
+            <textarea
+            name="discription"
+            id="discription"
+            cols="30"
+            rows="10"
+            >Empty</textarea>
+            <br><br>
+
+            <input type="submit" value="Submit">
+            
+        </form>
+    </body>
+</html>

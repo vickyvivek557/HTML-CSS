@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>CSS Combinators</title>
+        <style>
+            .element p{
+                color: aqua; /*All direct and indirect
+                childes will be affected (Descendant Selector)*/
+            }
+
+            .element>p{
+                color: blue;/*Only direct
+                childes will be affected(Child Selector)*/
+            }
+
+            .element+p{
+                color: red;/*Adjacent sibling selector*/
+            }
+
+            .element~p{
+                color:blueviolet/*All Mext siblings will be 
+                affected (General Sibling Selector)*/
+            }
+            .element>div>p{/*Access tag under a class*/
+                background-color: rgb(255, 127, 227);
+            }
+        </style>
+    </head>
+    <body>
+        <p>Before</p>
+        <div class="element">
+            <p>first</p>
+            <p>second</p>
+            <p>third</p>
+            <p>Fourth</p>
+            <div><p>not a direct child</p></div>
+        </div>
+        <p>sibling</p>
+        <p>next sibling</p>
+    </body>
+</html>

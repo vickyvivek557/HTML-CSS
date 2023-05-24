@@ -1,0 +1,27 @@
+*{
+    margin: 1rem;
+}
+
+.specialBox, .notSpecialBox{
+    height: 10rem;
+    width: 10rem;
+}
+
+.specialBox{
+    background-color: yellow;
+    border: 5px solid red;
+}
+
+.notSpecialBox{
+    background-color: blue;
+}
+
+.border{
+    border: 5px solid pink; /* This is not working */
+}
+.box{
+    height: 5rem;
+    width: 5rem;
+    background-color: aqua;
+    border: 5px solid red;
+}

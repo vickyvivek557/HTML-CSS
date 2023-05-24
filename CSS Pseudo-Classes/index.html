@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>css pseudo-class</title>
+        <style>
+            .button{
+                height: 2rem;
+                width: 4rem;
+                background-color: lightgray;
+                border-radius: 10px;
+                border: 2px solid darkgray;
+            }
+            .button:hover{/*pseudo class hover*/
+                cursor: pointer;
+                background-color: rgb(131, 132, 133);
+            }
+            .button:active{/*pseudo class active on clicking*/
+                background-color: rgb(57, 58, 58);
+            }
+            a:hover{
+                color: red
+            }
+            a:active{
+                color: aqua;
+            }
+            a:visited{
+                color:black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="button"></div>
+        <a href="google.com">Google</a>
+    </body>
+</html>

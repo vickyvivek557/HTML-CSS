@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>CSS Propery2</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                height: 200vh;
+            }
+
+            .container{
+                border: 1px solid black;
+                height: 300px;
+                width: 250px;
+                overflow: auto;
+                padding: 5px;
+                position: relative;
+                display: none;
+            }
+
+            .container>img{
+                float: right;
+                margin: 0.1rem;
+                /* position: absolute; */
+                /* left: 0;
+                top: 0; */
+            }
+            .box1{
+                height: 9rem;
+                width: 9rem;
+                background-color: aqua;
+                position: absolute;
+                z-index: 2;
+                display: none;
+            }
+            .box2{
+                height: 9rem;
+                width: 9rem;
+                background-color: rgb(248, 226, 28);
+                position: absolute;
+                margin-top: 40px;
+                z-index: 3;
+                opacity: 70%;
+                display: none;
+            }
+            .box3{
+                height: 12rem;
+                width: 12rem;
+                background-color: rgb(196, 11, 27);
+                position: absolute;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img src="./Nature.jpg" height=100px alt="">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ullam dicta incidunt quia numquam est earum nostrum, laborum repellendus enim nesciunt! Cumque at debitis soluta. Vitae vero molestias, nam adipisci impedit quisquam nostrum tenetur, quo minima officiis explicabo delectus, ad sequi. Odit reiciendis placeat explicabo doloribus maxime autem fugiat enim! Debitis quidem, cumque hic voluptatum cupiditate, aperiam facilis expedita blanditiis ut quam laudantium. Non id pariatur nihil ab sequi commodi quibusdam fugiat facilis illo aspernatur placeat tenetur quam, nostrum eligendi voluptas aut excepturi repellat quo necessitatibus blanditiis impedit voluptatem. Et a ut saepe harum eveniet repudiandae eos commodi quis obcaecati.
+        </div>
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+    </body>
+</html>

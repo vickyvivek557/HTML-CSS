@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    margin: 2rem;
+}
+.div1{
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: aqua;
+    height: 10rem;
+    width: 25rem;
+    color: rgb(173, 175, 16);
+    font-size:1.5rem;
+    text-align: center;
+    /* text-decoration:underline; */
+    text-transform:capitalize;
+    letter-spacing: 2px;
+    line-height: 1.6;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+
+}
+.div>img{
+    vertical-align: super;
+}
+.div2{
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: aqua;
+    height: 10rem;
+    width: 15rem;
+    color: rgb(173, 175, 16);
+    font-size:1.5rem;
+    text-align: center;
+
+    border: 10px solid red;
+    border-top: 10px solid yellow;
+    border-bottom: 10px solid rgb(63, 25, 153);
+    border-radius: 20px;
+    border-style:dashed;
+
+    overflow:auto;
+}
+
+.div2::-webkit-scrollbar {
+    display:none;
+  }
+
+.div3{
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: aqua;
+    height: 10rem;
+    width: 15rem;
+    color: rgb(243, 195, 63);
+    font-size:1.5rem;
+    text-align: center;
+
+    border: 10px solid red;
+    border-top: 10px solid yellow;
+    border-bottom: 10px solid rgb(63, 25, 153);
+    border-radius: 20px;
+    border-style:groove;
+
+    background-image: url(https://picsum.photos/230/150);
+    background-size: cover;
+}

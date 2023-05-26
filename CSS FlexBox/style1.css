@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-flow: row wrap; */
+    justify-content: center;
+    height:100vh;
+    width: 100vw;
+    background-color:skyblue;
+    gap: 1rem;
+}
+.item{
+    height:100px;
+    width:100px;
+    background-color: white;
+    font-size:2rem;
+    color: brown;
+
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    
+}
